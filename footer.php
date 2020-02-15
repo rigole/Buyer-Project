@@ -99,7 +99,7 @@
             <ul>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Acceuil</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">A propos de nous</a></li>
-              <li><i class="ion-ios-arrow-right"></i> <a href="#">FAQ</a></li>
+              <li><i class="ion-ios-arrow-right"></i> <a href="shop/faq.php">FAQ</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Conditions d'utilisations</a></li>
               <li><i class="ion-ios-arrow-right"></i> <a href="#">Politique de confidentialité</a></li>
             </ul>

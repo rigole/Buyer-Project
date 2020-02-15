@@ -10,6 +10,6 @@ if((isset($_SESSION['name'])) || isset($_SESSION['access_token'])){
 $_SESSION['flash']['success']="Vous êtes maintenant déconnectés. A bientôt";
 
 
-header('Location: ' . $_SERVER['HTTP_REFERER']);
+header("Location: ../index.php");
 
 

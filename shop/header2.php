@@ -22,7 +22,7 @@ require  'vendor/autoload.php';
  try {
 	 $accessToken = $helper->getAccessToken();
 	 if(isset($accessToken)){
-		   $_SESSION['access_token']=(string)$accessToken;
+		$_SESSION['access_token']=(string)$accessToken;
 		$_SESSION['flash']['success'] = 'vous êtes maintenant connectés';
 	     //echo $_SESSION['name'];
 	}
@@ -211,13 +211,13 @@ require_once 'header.php';
 										       <a class="dropdown-toggle" data-toggle="dropdown"  style="color:rgb(249,192,81);" href="#">Bonjour <?=  $_SESSION['name']; ?> <span class="caret"></span></a>
 										       <ul class="dropdown-menu">
                                                 <li><a href="#">Mes Paiements</a></li>
-												<li></li>
+												<li><a href="logout.php">Deconnexion</a></li>
                                                  </ul>
 											</li>
-											<li><a href="logout.php" style="color:rgb(249,192,81); font-weight:bolder;" >Deconnexion</a></li> 
+											<li><a href="account.php" style="color:rgb(249,192,81); font-weight:bolder;" >Mon Compte</a></li> 
 										<?php else :?>						   
 											<li><a  data-toggle="modal" style="color:rgb(249,192,81);" href="#connexion">Connexion<!-- <span class="glyphicon glyphicon-log-in"></span>>--></a></li>	    
-											<li><a style="color:rgb(249,192,81); font-weight:bolder;" href="#inscrire" data-toggle="modal" ><!--<span class="glyphicon glyphicon-user"></span >-->S'inscrire</a></li>			
+											<li><a style="color:rgb(249,192,81); font-weight:bolder;" href="#inscrire" data-toggle="modal" >S'inscrire</a></li>			
 										<?php endif;?>
 						   			  	  <li class="">
 											 	<span class="">
@@ -282,8 +282,7 @@ require_once 'header.php';
 		 <button class="button btn btn-primary" style="width:200px;" type="submit">Inscription</button><br><br><br><p>OU</p>
 		 <a href="<?php echo  $login_url;?>">Inscription via Facebook</a>
 
-    <div id="status">
-</div>
+  
 		 </div>
 	</form>
 
