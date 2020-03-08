@@ -1,31 +1,4 @@
-(function($){
-    $('.addPanier').click(function(event){
-    
-    event.preventDefault();
-    $.get($(this).attr('href'),{},function(data){
-    if (data.error) {  
-        alert(data.message);
-    }
-    else{
-       if(confirm(data.message + ' . Voulez vous consulter votre facture ?'))
-       {
-           location.href = '../shop/paimentFacture.php';
-       }else{
-           $('#total').empty().append(data.count);
-           $('#count').empty().append(data.total);
-       }
-    }
-    },'json');
-    return false;
-    
-    });
-    
-    })(jQuery);
-    
-    
-    
-    
-    
+
     (function($){
         $('.addbill').click(function(event){
         

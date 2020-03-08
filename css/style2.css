@@ -64,9 +64,6 @@ body {
   font-family: 'Hind', sans-serif;
   color: #4A4E5A;
   overflow-x: hidden;
-  background-image: url('../img/back2.png');
-  background-size: cover;
-  
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -139,26 +136,26 @@ hr {
 }
 
 .main-btn {
-  /*color: #30323A;*/
+  color: #30323A;
   background-color: #FFF;
   -webkit-box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 6px transparent;
   box-shadow: 0px 0px 0px 1px #DADADA inset, 0px 0px 0px 6px transparent;
 }
 
 .main-btn:hover, .main-btn:focus {
-  /*color: #F8694A;*/
+  color: #F8694A;
   -webkit-box-shadow: 0px 0px 0px 1px #F8694A inset, 0px 0px 0px 0px #F8694A;
   box-shadow: 0px 0px 0px 1px #F8694A inset, 0px 0px 0px 0px #F8694A;
 }
 
 .primary-btn {
-  color: #f9c051;
-  background-color: #f9c051;
+  color: #FFF;
+  background-color:  rgb(249,192,81);
 }
 
 .primary-btn:hover, .primary-btn:focus {
   color: #FFF;
-  background-color:#f9c051;
+  background-color: rgb(249,192,81);
 }
 
 /*----------------------------*\
@@ -309,23 +306,10 @@ textarea.input {
 /*=========================================================
 	02 -> HEADER
 ===========================================================*/
-#header.header-scrolled {
-  background: rgba(0, 0, 0, 0.9);
-  padding: 20px 0;
-  height: 72px;
-  transition: all 0.5s;
-}
+
 #header {
-  padding: 30px 0;
-  height: 92px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  transition: all 0.5s;
-  z-index: 997; padding-top: 15px;
+  padding-top: 15px;
   padding-bottom: 15px;
-  
 }
 
 /*----------------------------*\
@@ -443,7 +427,7 @@ textarea.input {
 \*----------------------------*/
 
 .header-cart .header-btns-icon .qty {
- position: absolute;
+  position: absolute;
   right: -9px;
   top: -9px;
   width: 18px;
@@ -454,7 +438,6 @@ textarea.input {
   background: #F8694A;
   color: #FFF;
   border-radius: 50%;
-  border-width: 
 }
 
 .header-cart.dropdown .custom-menu {
@@ -1014,7 +997,6 @@ textarea.input {
 
 .product.product-single.product-hot {
   border: 2px solid #F8694A;
-  
 }
 
 .product.product-single.product-hot .product-btns {
