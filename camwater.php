@@ -28,6 +28,7 @@ require 'header2.php';
 
 	<!-- Custom stlylesheet -->
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<script src="../js/app2.js"></script>
 	
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -85,7 +86,7 @@ require 'header2.php';
 							<h2 class="product-name"><a href="#"><?= $product->name ?></a></h2>
 							<div class="product-btns">
 							
-								<a  href="addpanier.php?id=<?=$product->id; ?>" class="addPanier" >	<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Ajouter à la facture</button></a>
+								<a  href="addpanier.php?id=<?=$product->id; ?>" class="addbill" >	<button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> Ajouter à la facture</button></a>
 							</div>
 						</div>
 					</div>

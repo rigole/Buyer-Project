@@ -1,13 +1,18 @@
 <?php
 require 'header2.php';
 ?>
+<br><br><br>
 
-<br><br><br><br><br><br><br>
+<div class="container">
+<form class="form-inline" method="post" action="search.php">
+      <div class="form-group ">
+      <input class="form-control" name="search" placeholder="Rechercher un medicament" type="text">
+	  </div>
+	  <button type="submit" name="search-submit" class="primary-btn add-to-cart">Rechercher</button>
 
 
-    
-			
-			
+</form>
+</div>
 			<div class="section">
 		<!-- container -->
 		<div class="container">
@@ -22,7 +27,7 @@ require 'header2.php';
 				</div>
 				<!-- section title -->
 
-				<?php $products = $DB->query('SELECT * FROM products WHERE id BETWEEN 73 AND 98'); ?>
+				<?php $products = $DB->query('SELECT * FROM products WHERE id BETWEEN 73 AND 112'); ?>
 				<?php foreach ($products as $product) : ?>
 				<div class="col-md-3 col-sm-6 col-xs-6">
 					

@@ -106,7 +106,6 @@ require 'header2.php';
    
    <h2>Choisissez votre methode de paiement</h2>
    <button  class="button btn btn-primary" data-toggle="collapse" style="width:300px;"   data-target="#vire" >Virement Bancaire</button><br><br>
-   <button  class="button btn btn-primary" data-toggle="collapse" style="width:300px;"  data-target="#paymen_form" >Carte de crédit</button><br> <br>
    <button  class="btn btn-primary" data-toggle="collapse"  data-target="#paypal" style="width:300px;">compte Paypal</button><br> <br>
    
    <div id="paypal" class="collapse">

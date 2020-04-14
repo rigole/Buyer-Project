@@ -130,7 +130,7 @@ require_once 'header.php';
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>FlashPayer</title>
+	<title>FlashPayers: Parce que la distance n'est qu'un chiffre</title>
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	
@@ -163,6 +163,8 @@ require_once 'header.php';
 	
 	<link type="text/css" rel="stylesheet" href="../css/style.css" />
 	<link type="text/css" rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/toastr.min.css">
+	<link rel="stylesheet" href="css/toastr.css">
 	
 	
 	
@@ -280,12 +282,12 @@ require_once 'header.php';
 		  <br><br><br><br>
 		  <div class=" text-center">
 		 <button class="button btn btn-primary" style="width:200px;" type="submit">Inscription</button><br><br><br><p>OU</p>
-		 <a href="<?php echo  $login_url;?>"><Button class="primary-btn" style="background-color:#4267b2; color:white; "><i style="padding-right:12px;" class="fa fa-facebook"></i>Inscription  Facebook</button></a>
+	
 
   
 		 </div>
 	</form>
-
+	<a href="<?php echo  $login_url;?>"><Button class="primary-btn" style="background-color:#4267b2; color:white; "><i style="padding-right:12px;" class="fa fa-facebook"></i>Inscription  Facebook</button></a>
   </div>
   <div class="modal-footer">
 	<button type="button" class="btn btn-default" data-dismiss="modal">fermer</button>
@@ -319,7 +321,7 @@ require_once 'header.php';
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Flashpayer</h4>
+          <h4 class="modal-title">Flashpayers</h4>
         </div>
         <div class="modal-body">
 		<form action=""  method="post">

@@ -85,6 +85,19 @@ require 'header2.php';
                     Pour l'instant afin d'assurer une bonne sécurité et fiabilité dans le paiement nous n'acceptons que les paiements Via votre compte Paypal ou via Carte de Crédit. 
                     </div>
 					</p>
+                     
+					<p data-toggle="collapse" data-target="#question4"> <span class="glyphicon glyphicon-chevron-right"></span>   Flashpayers fait il des reductions sur ses tarifs
+					<div id="question4" class="collapse">
+                     De temps en temps et en fonction de plusieurs facteurs Flashpayers offres des codes de reduction allant de 10 à 90% sur les frais de paiement à ses Clients 
+                    </div>
+					</p>
+
+
+					<p data-toggle="collapse" data-target="#question4"> <span class="glyphicon glyphicon-chevron-right"></span>  Quels sont les engagments Clients de Flashpayers
+					<div id="question4" class="collapse">
+                     Le Client étant au coeurs de nos activités nous nous engageons a respecter scrupuleusement envers nos clients ce qui suit
+                    </div>
+					</p>
 				</div>
 				
 				
